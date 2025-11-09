@@ -1,4 +1,12 @@
 {
+  "site": {
+    "title": "Universal kopirnica - Sarajevo",
+    "description": "Universal kopirnica u centru Sarajeva. Fotokopiranje, print, uvez, plastifikacija i skeniranje.",
+    "ogTitle": "Universal kopirnica – Brzo i kvalitetno",
+    "ogDescription": "Sve usluge kopiranja i printanja na jednom mjestu. Tradicija i povjerenje.",
+    "ogImage": "/public/og-image.png"
+  },
+
   "nav": [
     { "label": "Početna", "href": "#pocetna" },
     { "label": "Usluge",  "href": "#usluge" },
@@ -7,49 +15,49 @@
   ],
 
   "hero": {
-    "title": "Rast brendova kroz digitalni marketing",
-    "subtitle": "Trendco Digital pomaže malim i srednjim biznisima da dođu do pravih kupaca kroz strategiju, oglase i sadržaj koji donosi rezultate.",
-    "ctaText": "Zakaži besplatan konsulting",
+    "headline": "Brzo kopiranje i profesionalni print",
+    "subheadline": "Universal kopirnica – pouzdana za studente i biznis. Kvalitet, brzina i povoljne cijene.",
+    "ctaText": "Pošalji upit",
     "ctaHref": "#kontakt",
-    "image": "/public/hero.jpg"
+    "heroImage": "/public/slika1.jpg"
   },
 
   "about": {
-    "title": "Ko smo mi",
-    "text": "Mi smo tim stručnjaka za performans marketing, društvene mreže i web. Mjerimo, testiramo i optimizujemo sve – od kampanja do landing stranica – kako bi tvoj budžet donio najveći povrat ulaganja.",
-    "image": "/public/about.jpg"
+    "title": "O Universal kopirnici",
+    "text": "Više od dvije decenije na usluzi Sarajevu. Nudimo sve – od standardnog fotokopiranja i skeniranja, do printa letaka, plakata, uveza i plastifikacije. Fokus nam je tačnost, brzina i ljubazna usluga.",
+    "image": "/public/slika2.jpg"
   },
 
   "services": [
     {
-      "title": "Društvene mreže (SMM)",
-      "desc": "Plan, kreacija sadržaja i vođenje profila. Fokus na rast zajednice, engagement i prodaju.",
+      "title": "Fotokopiranje i Skeniranje",
+      "text": "Crno-bijelo i kolor kopiranje svih formata. Brzo skeniranje u PDF i slanje na email.",
       "image": "/public/slika3.jpg"
     },
     {
-      "title": "Google & Meta Ads",
-      "desc": "Postavka i optimizacija kampanja (Search, Display, Shopping, Instagram/Facebook) s ciljem maksimalnog ROI.",
+      "title": "Print letaka, brošura, plakata",
+      "text": "Profesionalni print promotivnih materijala na različitim gramaturama i formatima.",
       "image": "/public/slika4.jpg"
     },
     {
-      "title": "Web dizajn & landing stranice",
-      "desc": "Brze, moderne i mjerne stranice spremne za oglase. SEO osnove uključene.",
-      "image": "/public/slika5.jpg"
+      "title": "Uvez i Plastifikacija",
+      "text": "Spiralni i termo uvez (A4/A3), plastifikacija dokumenata i kartica.",
+      "image": "/public/slika3.jpg"
     },
     {
-      "title": "SEO",
-      "desc": "On-page, tehnički SEO i strategija sadržaja za organski rast pretrage.",
-      "image": "/public/slika6.jpg"
+      "title": "Studentske Usluge",
+      "text": "Kopiranje skripti, priprema seminara i radova, povoljne cijene i brza izrada.",
+      "image": "/public/slika4.jpg"
     },
     {
-      "title": "Foto/Video produkcija",
-      "desc": "Kreiranje vizuala i kratkih formata optimizovanih za konverzije i društvene mreže.",
-      "image": "/public/slika7.jpg"
+      "title": "Digitalizacija Dokumenata",
+      "text": "Skeniranje arhiva, USB/Email isporuka, sortiranje i osnovno preimenovanje.",
+      "image": "/public/slika3.jpg"
     },
     {
-      "title": "Brendiranje",
-      "desc": "Logo, vizuelni identitet i ton komunikacije usklađeni s ciljnim tržištem.",
-      "image": "/public/slika8.jpg"
+      "title": "Ekspres Print",
+      "text": "Hitne narudžbe – dokumenti spremni isti dan kada je najpotrebnije.",
+      "image": "/public/slika4.jpg"
     }
   ],
 
@@ -60,32 +68,31 @@
   ],
 
   "reasons": [
-    "Strategija zasnovana na podacima i testiranju",
-    "Fokus na mjerljive ciljeve: leadovi i prodaja",
-    "Transparentan izvještaj i uvid u troškove",
-    "Brza isporuka i jasni rokovi",
-    "Fleksibilni paketi i bez skrivenih obaveza",
-    "In-house tim dizajnera, copywritera i media buyer-a"
+    "Iskustvo i tradicija – preko 20 godina rada",
+    "Lokacija u centru grada, lako dostupni",
+    "Brza izrada i ekspres usluga",
+    "Povoljne cijene i popusti za studente",
+    "Kvalitetna oprema i uredan rad",
+    "Ljubazno i profesionalno osoblje"
   ],
 
   "contact": {
-    "email": "info@trendcodigital.ba",
+    "email": "universal.kopirnica@gmail.com",
     "phone": "+387 61 000 000",
-    "address": "Maršala Tita 00, 71000 Sarajevo, BiH",
-    "mapLink": "https://www.google.com/maps/search/?api=1&query=Sarajevo",
+    "address": "Centar, 71000 Sarajevo, Bosna i Hercegovina",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Sarajevo+Centar",
     "workingHours": [
-      "Ponedjeljak – Petak: 09:00 – 17:00",
-      "Subota: Po dogovoru",
+      "Ponedjeljak – Petak: 08:00 – 18:00",
+      "Subota: 09:00 – 14:00",
       "Nedjelja: Zatvoreno"
     ]
   },
 
   "footer": {
-    "copy": "© 2025 Trendco Digital. Sva prava zadržana.",
+    "copy": "© 2025 Universal kopirnica. Sva prava zadržana.",
     "social": [
-      { "label": "Facebook",  "href": "https://facebook.com/" },
-      { "label": "Instagram", "href": "https://instagram.com/" },
-      { "label": "LinkedIn",  "href": "https://linkedin.com/" }
+      { "label": "Facebook", "href": "https://facebook.com/" },
+      { "label": "Instagram", "href": "https://instagram.com/" }
     ]
   }
 }
