@@ -1,74 +1,91 @@
 {
-  "site": {
-    "title": "Kopirnica Bezistan - Sarajevo",
-    "description": "Tradicionalna kopirnica u Bezistanu, Sarajevo. Fotokopiranje, print, uvezivanje, lamiranje i sve usluge za studente i poslovne korisnike.",
-    "ogTitle": "Kopirnica Bezistan - Vaša Pouzdana Kopirnica u Sarajevu",
-    "ogDescription": "Brzo, kvalitetno i povoljno. Sve usluge printanja i kopiranja na jednom mjestu.",
-    "ogImage": "/public/og-image.png"
-  },
-
   "nav": [
-    { "label": "Početna", "href": "#" },
-    { "label": "Usluge", "href": "#usluge" },
-    { "label": "O Nama", "href": "#o-nama" },
+    { "label": "Početna", "href": "#pocetna" },
+    { "label": "Usluge",  "href": "#usluge" },
+    { "label": "O Nama",  "href": "#o-nama" },
     { "label": "Kontakt", "href": "#kontakt" }
   ],
 
   "hero": {
-    "headline": "Vaša pouzdana kopirnica u srcu Sarajeva",
-    "subheadline": "Više od 20 godina tradicije u Bezistanu. Brzo, kvalitetno i uvijek tu za vas.",
-    "ctaText": "Kontaktirajte nas",
+    "title": "Rast brendova kroz digitalni marketing",
+    "subtitle": "Trendco Digital pomaže malim i srednjim biznisima da dođu do pravih kupaca kroz strategiju, oglase i sadržaj koji donosi rezultate.",
+    "ctaText": "Zakaži besplatan konsulting",
     "ctaHref": "#kontakt",
-    "heroImage": "/public/slika1.jpeg"
+    "image": "/public/hero.jpg"
   },
 
   "about": {
-    "title": "Naša radnja",
-    "text": "Kopirnica Bezistan je tradicionalna kopirnica smještena u istorijskom Bezistanu u centru Sarajeva. Pružamo fotokopiranje, štampu, uvez i plastifikaciju za studente i poslovne korisnike.",
-    "image": "/public/slika2.jpeg"
+    "title": "Ko smo mi",
+    "text": "Mi smo tim stručnjaka za performans marketing, društvene mreže i web. Mjerimo, testiramo i optimizujemo sve – od kampanja do landing stranica – kako bi tvoj budžet donio najveći povrat ulaganja.",
+    "image": "/public/about.jpg"
   },
 
   "services": [
-    { "title": "Fotokopiranje i skeniranje", "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.", "image": "/public/slika3.png" },
-    { "title": "Letci, brošure, plakati",      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",    "image": "/public/slika4.PNG" },
-    { "title": "Uvez i plastifikacija",        "text": "Spiralni i termo uvez, A4/A3 plastifikacija dokumenata.",         "image": "/public/slika5.jpg" },
-    { "title": "Studentske usluge",            "text": "Skripte, skracivanje i priprema materijala, povoljne cijene.",    "image": "/public/slika6.PNG" },
-    { "title": "Digitalizacija dokumenata",    "text": "Skeniranje, USB/Email isporuka i arhiviranje.",                   "image": "/public/slika7.PNG" },
-    { "title": "Ekspres print",                "text": "Hitne narudžbe – dokumenti odmah spremni.",                       "image": "/public/slika8.JPG" }
+    {
+      "title": "Društvene mreže (SMM)",
+      "desc": "Plan, kreacija sadržaja i vođenje profila. Fokus na rast zajednice, engagement i prodaju.",
+      "image": "/public/slika3.jpg"
+    },
+    {
+      "title": "Google & Meta Ads",
+      "desc": "Postavka i optimizacija kampanja (Search, Display, Shopping, Instagram/Facebook) s ciljem maksimalnog ROI.",
+      "image": "/public/slika4.jpg"
+    },
+    {
+      "title": "Web dizajn & landing stranice",
+      "desc": "Brze, moderne i mjerne stranice spremne za oglase. SEO osnove uključene.",
+      "image": "/public/slika5.jpg"
+    },
+    {
+      "title": "SEO",
+      "desc": "On-page, tehnički SEO i strategija sadržaja za organski rast pretrage.",
+      "image": "/public/slika6.jpg"
+    },
+    {
+      "title": "Foto/Video produkcija",
+      "desc": "Kreiranje vizuala i kratkih formata optimizovanih za konverzije i društvene mreže.",
+      "image": "/public/slika7.jpg"
+    },
+    {
+      "title": "Brendiranje",
+      "desc": "Logo, vizuelni identitet i ton komunikacije usklađeni s ciljnim tržištem.",
+      "image": "/public/slika8.jpg"
+    }
   ],
 
   "gallery": [
-    "/public/galerijaslika1.JPG",
-    "/public/galerijaslika2.PNG",
-    "/public/galerijaslika3.JPG"
+    "/public/galerijaslika1.jpg",
+    "/public/galerijaslika2.jpg",
+    "/public/galerijaslika3.jpg"
   ],
 
   "reasons": [
-    "Više od 20 godina iskustva",
-    "Lokacija u centru grada",
-    "Brza usluga i hitne narudžbe",
-    "Povoljne cijene za studente",
-    "Moderna oprema",
-    "Ljubazno i profesionalno osoblje"
+    "Strategija zasnovana na podacima i testiranju",
+    "Fokus na mjerljive ciljeve: leadovi i prodaja",
+    "Transparentan izvještaj i uvid u troškove",
+    "Brza isporuka i jasni rokovi",
+    "Fleksibilni paketi i bez skrivenih obaveza",
+    "In-house tim dizajnera, copywritera i media buyer-a"
   ],
 
   "contact": {
-    "email": "kopirnicabezistan@gmail.com",
-    "phone": "+387 64 446 70 72",
-    "address": "Bezistan, Ferhadija 17, 71000 Sarajevo",
-    "mapLink": "https://maps.app.goo.gl/W4hYAMRshuNyvQY98?g_st=ipc.4254953,18z",
+    "email": "info@trendcodigital.ba",
+    "phone": "+387 61 000 000",
+    "address": "Maršala Tita 00, 71000 Sarajevo, BiH",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=Sarajevo",
     "workingHours": [
-      "Ponedjeljak – Petak: 08:00 – 18:00",
-      "Subota: 09:00 – 14:00",
+      "Ponedjeljak – Petak: 09:00 – 17:00",
+      "Subota: Po dogovoru",
       "Nedjelja: Zatvoreno"
     ]
   },
 
   "footer": {
-    "copy": "© 2025 Kopirnica Bezistan. Sva prava zadržana.",
+    "copy": "© 2025 Trendco Digital. Sva prava zadržana.",
     "social": [
-      { "label": "Facebook",  "href": "https://facebook.com" },
-      { "label": "Instagram", "href": "https://instagram.com" }
+      { "label": "Facebook",  "href": "https://facebook.com/" },
+      { "label": "Instagram", "href": "https://instagram.com/" },
+      { "label": "LinkedIn",  "href": "https://linkedin.com/" }
     ]
   }
 }
