@@ -1,0 +1,156 @@
+/* Sekcija i grid */
+.section--gallery {
+  padding: clamp(24px, 4vw, 56px) 0;
+}
+
+.section--gallery .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section-title {
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Swiper visina i spacing */
+.cardSwiper {
+  padding: 12px 8px 32px;
+}
+
+.swiper-slide {
+  height: auto; /* da kartice budu auto po visini */
+}
+
+/* Kartica */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+.card__media {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .35s ease;
+  cursor: zoom-in;
+}
+
+.card:hover .card__img {
+  transform: scale(1.03);
+}
+
+.card__body {
+  padding: 14px 16px 16px;
+}
+
+.card__title {
+  font-size: 1rem;
+  margin: 0 0 6px 0;
+}
+
+.card__text {
+  font-size: .94rem;
+  color: #444;
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* Swiper navigacija i paginacija */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #111;
+  background: #fff;
+  border-radius: 999px;
+  width: 38px;
+  height: 38px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  opacity: .5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.6);
+  z-index: 9999;
+  padding: 24px;
+}
+
+.lightbox.is-open {
+  display: flex;
+}
+
+.lightbox__figure {
+  max-width: min(95vw, 1100px);
+  width: 100%;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.lightbox__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.lightbox__caption {
+  color: #eee;
+  font-size: .95rem;
+  padding: 10px 12px 12px;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: none;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+/* Mobilna optimizacija */
+@media (max-width: 640px) {
+  .cardSwiper {
+    padding: 8px 0 26px;
+  }
+  .section-title {
+    margin-bottom: 10px;
+  }
+}

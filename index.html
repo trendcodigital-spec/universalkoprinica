@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kopirnica Bezistan - Vaša pouzdana kopirnica u srcu Sarajeva. Fotokopiranje, print, uvezivanje i više.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kopirnica Bezistan - Sarajevo">
+  <meta property="og:description" content="Tradicionalna kopirnica u Bezistanu. Brzo, kvalitetno, povoljno.">
+  <meta property="og:image" content="/public/og-image.png">
+
+  <title>Kopirnica Bezistan - Sarajevo</title>
+
+  <!-- Swiper CSS (carousel biblioteka) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Naš dodatni stil za kartice i lightbox -->
+  <link rel="stylesheet" href="/assets/carousel.css">
+
+  <link rel="icon" type="image/x-icon" href="/public/favicon.ico">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav-logo">
+        <img src="/public/logo.jpeg" alt="Kopirnica Bezistan Logo" width="120" height="40">
+      </div>
+      <ul class="nav-menu" id="navMenu"></ul>
+    </nav>
+  </header>
+
+    <!-- Hero Section -->
+  <section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <span class="badge" id="heroBadge">Bezistan od 2000.</span>
+      <h1 class="hero-title" id="heroTitle"></h1>
+      <p class="hero-subtitle" id="heroSubtitle"></p>
+      <a href="#" class="btn btn-primary hero-cta" id="heroCta"></a>
+    </div>
+
+    <div class="hero-image">
+      <img src="" alt="Kopirnica Bezistan" id="heroImage" loading="eager">
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+<section class="about section" id="o-nama">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Lijevo: NASLOV + TEKST u istom wrapperu -->
+      <div class="about-text">
+        <h2 class="section-title" id="aboutTitle"></h2>
+        <p class="about-description" id="aboutText"></p>
+      </div>
+      <!-- Desno: SLIKA -->
+      <div class="about-image">
+        <img src="" alt="Naša radnja" id="aboutImage" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section class="services section" id="usluge">
+        <div class="container">
+            <h2 class="section-title center">Naše Usluge</h2>
+            <div class="services-grid" id="servicesGrid"></div>
+        </div>
+    </section>
+
+    
+        <!-- Gallery Section -->
+<section id="galerija" class="section section--gallery">
+  <div class="container">
+    <h2 class="section-title center">Galerija radova</h2>
+
+    <!-- Carousel wrapper -->
+    <div class="swiper cardSwiper">
+      <div class="swiper-wrapper">
+
+        <!-- 1. kartica/slajd -->
+        <div class="swiper-slide">
+          <article class="card">
+            <figure class="card__media">
+              <img
+                class="card__img"
+                src="/public/galerijaslika1.JPG"
+                alt="Primjer kolor štampe letaka"
+                loading="lazy"
+              />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">Letci u boji</h3>
+              <p class="card__text">Štampa na 130–170 g/m², mat ili sjaj. Brza isporuka.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- 2. kartica/slajd -->
+        <div class="swiper-slide">
+          <article class="card">
+            <figure class="card__media">
+              <img
+                class="card__img"
+                src="/public/galerijaslika2.PNG"
+                alt="Uvez i plastifikacija dokumenata"
+                loading="lazy"
+              />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">Uvez & plastifikacija</h3>
+              <p class="card__text">Spiralni i termo uvez, A4/A3 plastifikacija. Idealno za studentske radove.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- 3. kartica/slajd -->
+        <div class="swiper-slide">
+          <article class="card">
+            <figure class="card__media">
+              <img
+                class="card__img"
+                src="/public/galerijaslika3.JPG"
+                alt="Plakati i posteri u boji"
+                loading="lazy"
+              />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">Plakati & posteri</h3>
+              <p class="card__text">Veliki formati u visokoj rezoluciji, idealni za promocije i događaje.</p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+      <!-- Navigacija i paginacija -->
+      <div class="swiper-button-prev" aria-label="Prethodni slajd"></div>
+      <div class="swiper-button-next" aria-label="Sljedeći slajd"></div>
+      <div class="swiper-pagination" aria-label="Stranice"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox za uvećanje slike -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lightbox__close" aria-label="Zatvori (Esc)">✕</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" alt="" />
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+  </div>
+</section>
+
+    <!-- Reasons Section -->
+    <section class="reasons section">
+        <div class="container">
+            <h2 class="section-title center">Zašto Nas Odabrati</h2>
+            <ul class="reasons-list" id="reasonsList"></ul>
+        </div>
+    </section>
+
+    
+  <!-- Contact Section -->
+<section class="contact section" id="kontakt">
+  <div class="container">
+    <h2 class="section-title center">Kontakt & Lokacija</h2>
+    <div class="contact-grid">
+      
+      <div class="contact-info">
+        <div class="contact-item">
+          <h3>Adresa</h3>
+          <p id="contactAddress"></p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>Telefon</h3>
+          <p><a href="#" id="contactPhone"></a></p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>Email</h3>
+          <p><a href="#" id="contactEmail"></a></p>
+        </div>
+        
+        <div class="contact-item">
+          <h3>Radno Vrijeme</h3>
+          <ul id="workingHours"></ul>
+        </div>
+        
+        <a href="#" class="btn btn-secondary" id="contactCta">Pošalji Email</a>
+      </div>
+
+      <div class="contact-map">
+        <a href="#" id="mapLink" target="_blank" rel="noopener" class="map-placeholder">
+          <span>📍 Otvori na Mapi</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p id="footerCopy"></p>
+                <div class="footer-social" id="footerSocial"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Naš JS za inicijalizaciju karusela i lightbox -->
+<script src="assets/carousel.js"></script>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
