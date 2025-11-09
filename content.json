@@ -1,86 +1,86 @@
 {
   "site": {
-    "title": "Universal kopirnica - Sarajevo",
-    "description": "Universal kopirnica u centru Sarajeva. Fotokopiranje, print, uvez, plastifikacija i skeniranje.",
-    "ogTitle": "Universal kopirnica – Brzo i kvalitetno",
-    "ogDescription": "Sve usluge kopiranja i printanja na jednom mjestu. Tradicija i povjerenje.",
+    "title": "Kopirnica Bezistan - Sarajevo",
+    "description": "Tradicionalna kopirnica u Bezistanu, Sarajevo. Fotokopiranje, print, uvezivanje, lamiranje i sve usluge za studente i poslovne korisnike.",
+    "ogTitle": "Kopirnica Bezistan - Vaša Pouzdana Kopirnica u Sarajevu",
+    "ogDescription": "Brzo, kvalitetno i povoljno. Sve usluge printanja i kopiranja na jednom mjestu.",
     "ogImage": "/public/og-image.png"
   },
 
   "nav": [
-    { "label": "Početna", "href": "#pocetna" },
-    { "label": "Usluge",  "href": "#usluge" },
-    { "label": "O Nama",  "href": "#o-nama" },
+    { "label": "Početna", "href": "#" },
+    { "label": "Usluge", "href": "#usluge" },
+    { "label": "O Nama", "href": "#o-nama" },
     { "label": "Kontakt", "href": "#kontakt" }
   ],
 
   "hero": {
-    "headline": "Brzo kopiranje i profesionalni print",
-    "subheadline": "Universal kopirnica – pouzdana za studente i biznis. Kvalitet, brzina i povoljne cijene.",
-    "ctaText": "Pošalji upit",
+    "headline": "Vaša pouzdana kopirnica u srcu Sarajeva",
+    "subheadline": "Više od 20 godina tradicije u Bezistanu. Brzo, kvalitetno i uvijek tu za vas.",
+    "ctaText": "Kontaktirajte nas",
     "ctaHref": "#kontakt",
-    "heroImage": "/public/slika1.jpg"
+    "heroImage": "/public/slika1.jpeg"
   },
 
   "about": {
-    "title": "O Universal kopirnici",
-    "text": "Više od dvije decenije na usluzi Sarajevu. Nudimo sve – od standardnog fotokopiranja i skeniranja, do printa letaka, plakata, uveza i plastifikacije. Fokus nam je tačnost, brzina i ljubazna usluga.",
-    "image": "/public/slika2.jpg"
+    "title": "Naša radnja",
+    "text": "Kopirnica Bezistan je tradicionalna kopirnica smještena u istorijskom Bezistanu u centru Sarajeva. Pružamo fotokopiranje, štampu, uvez i plastifikaciju za studente i poslovne korisnike.",
+    "image": "/public/slika2.jpeg"
   },
 
   "services": [
     {
-      "title": "Fotokopiranje i Skeniranje",
-      "text": "Crno-bijelo i kolor kopiranje svih formata. Brzo skeniranje u PDF i slanje na email.",
-      "image": "/public/slika3.jpg"
+      "title": "Fotokopiranje i skeniranje",
+      "text": "Crno-bijelo i kolor kopiranje svih formata, brzo skeniranje u PDF.",
+      "image": "/public/slika3.png"
     },
     {
-      "title": "Print letaka, brošura, plakata",
-      "text": "Profesionalni print promotivnih materijala na različitim gramaturama i formatima.",
-      "image": "/public/slika4.jpg"
+      "title": "Letci, brošure, plakati",
+      "text": "Profesionalna štampa promotivnih materijala na raznim papirima.",
+      "image": "/public/slika4.PNG"
     },
     {
-      "title": "Uvez i Plastifikacija",
-      "text": "Spiralni i termo uvez (A4/A3), plastifikacija dokumenata i kartica.",
-      "image": "/public/slika3.jpg"
+      "title": "Uvez i plastifikacija",
+      "text": "Spiralni i termo uvez, A4/A3 plastifikacija dokumenata.",
+      "image": "/public/slika5.jpg"
     },
     {
-      "title": "Studentske Usluge",
-      "text": "Kopiranje skripti, priprema seminara i radova, povoljne cijene i brza izrada.",
-      "image": "/public/slika4.jpg"
+      "title": "Studentske usluge",
+      "text": "Skripte, skraćivanje i priprema materijala, povoljne cijene.",
+      "image": "/public/slika6.PNG"
     },
     {
-      "title": "Digitalizacija Dokumenata",
-      "text": "Skeniranje arhiva, USB/Email isporuka, sortiranje i osnovno preimenovanje.",
-      "image": "/public/slika3.jpg"
+      "title": "Digitalizacija dokumenata",
+      "text": "Skeniranje, USB/Email isporuka i arhiviranje.",
+      "image": "/public/slika7.PNG"
     },
     {
-      "title": "Ekspres Print",
-      "text": "Hitne narudžbe – dokumenti spremni isti dan kada je najpotrebnije.",
-      "image": "/public/slika4.jpg"
+      "title": "Ekspres print",
+      "text": "Hitne narudžbe – dokumenti odmah spremni.",
+      "image": "/public/slika8.JPG"
     }
   ],
 
   "gallery": [
-    "/public/galerijaslika1.jpg",
-    "/public/galerijaslika2.jpg",
-    "/public/galerijaslika3.jpg"
+    "/public/galerijaslika1.JPG",
+    "/public/galerijaslika2.PNG",
+    "/public/galerijaslika3.JPG"
   ],
 
   "reasons": [
-    "Iskustvo i tradicija – preko 20 godina rada",
-    "Lokacija u centru grada, lako dostupni",
-    "Brza izrada i ekspres usluga",
-    "Povoljne cijene i popusti za studente",
-    "Kvalitetna oprema i uredan rad",
+    "Više od 20 godina iskustva",
+    "Lokacija u centru grada",
+    "Brza usluga i hitne narudžbe",
+    "Povoljne cijene za studente",
+    "Moderna oprema",
     "Ljubazno i profesionalno osoblje"
   ],
 
   "contact": {
-    "email": "universal.kopirnica@gmail.com",
-    "phone": "+387 61 000 000",
-    "address": "Centar, 71000 Sarajevo, Bosna i Hercegovina",
-    "mapLink": "https://www.google.com/maps/search/?api=1&query=Sarajevo+Centar",
+    "email": "kopirnicabezistan@gmail.com",
+    "phone": "+387 64 446 70 72",
+    "address": "Bezistan, Ferhadija 17, 71000 Sarajevo",
+    "mapLink": "https://maps.app.goo.gl/W4hYAMRshuNyvQY98?g_st=ipc.4254953,18z",
     "workingHours": [
       "Ponedjeljak – Petak: 08:00 – 18:00",
       "Subota: 09:00 – 14:00",
@@ -89,10 +89,10 @@
   },
 
   "footer": {
-    "copy": "© 2025 Universal kopirnica. Sva prava zadržana.",
+    "copy": "© 2025 Kopirnica Bezistan. Sva prava zadržana.",
     "social": [
-      { "label": "Facebook", "href": "https://facebook.com/" },
-      { "label": "Instagram", "href": "https://instagram.com/" }
+      { "label": "Facebook", "href": "https://facebook.com" },
+      { "label": "Instagram", "href": "https://instagram.com" }
     ]
   }
 }
